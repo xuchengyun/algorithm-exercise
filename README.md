@@ -9,7 +9,7 @@
   - [DP](https://github.com/dingjikerbo/leetcode/blob/master/ebook/dp/leetcode-dp.pdf)
   - [Array](https://github.com/dingjikerbo/leetcode/blob/master/ebook/array/leetcode-array.pdf)
   - [List](https://github.com/dingjikerbo/leetcode/blob/master/ebook/list/leetcode-list.pdf)
-   
+
  <br/><br/>
 
 ## **二、文档列表**
@@ -24,5 +24,6 @@
 ## **三、所有题目列表**
 |#|Title|Solution|Score|comment|
 |---|----| ----- |----|---------|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/titleToNumber.java)|100|simple math|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/titleToNumber.java)|100|simple math|
-
+|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/717.%201-bit%20and%202-bit%20Characters.java)|100|increase pointer|
