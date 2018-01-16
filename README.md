@@ -24,7 +24,7 @@
 ## **三、所有题目列表**
 |#|Title|Solution|Score|comment|
 |---|----| ----- |----|---------|
-|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/76.%20Minimum%20Window%20Substring.java)|100|simple math|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/76.%20Minimum%20Window%20Substring.java)|100|hard|
 |171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/titleToNumber.java)|100|simple math|
-|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/717.%201-bit%20and%202-bit%20Characters.java)|100|increase pointer|
-|735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/717.%201-bit%20and%202-bit%20Characters.java)|100|increase pointer|
+|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/717.%201-bit%20and%202-bit%20Characters.java)|100||
+|735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Java](https://github.com/xuchengyun/algorithm-exercise/blob/master/src/735.%20Asteroid%20Collision.java)|100|using stack|
