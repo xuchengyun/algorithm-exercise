@@ -1,11 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Created by xuchengyun on 8/8/18.
- */
-public class Test{
-
+class Solution {
     public String validIPAddress(String IP) {
         if (IP.contains(":")) {
             if (IP.charAt(IP.length() - 1) == ':') return "Neither";
@@ -23,7 +16,7 @@ public class Test{
             }
             return "IPv6";
         } else if (IP.contains(".")) {
-            System.out.println(IP);
+            if (IP.charAt(IP.length() - 1) == '.') return "Neither";
             String[] parts = IP.split("\\.");
 
             System.out.println(parts.length);
@@ -38,6 +31,9 @@ public class Test{
                 if (Integer.parseInt(part) > 255) return "Neither";
 
                 if (charArray[len - 1] != '0' && charArray[0] == '0') return "Neither";
+                if (len >= 2) {
+                    if (charArray[0] == '0' && charArray[1] == '0') return "Neither";
+                }
             }
             return "IPv4";
         }
@@ -45,21 +41,11 @@ public class Test{
         return "Neither";
     }
 
-
-
     public boolean checkHex(char c) {
-        char[] charArray = new char[] {'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','A','B','C','D','E'};
+        char[] charArray = new char[] {'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f','A','B','C','D','E','F'};
         for (char k : charArray) {
             if (k == c) return true;
         }
         return false;
     }
-
-
-        public static void main(String[] args) {
-            Test t = new Test();
-            String s = "20EE:Fb8:85a3:0:0:8A2E:0370:7334";
-            System.out.println(t.validIPAddress(s));
-
-        }
 }
